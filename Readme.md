@@ -17,7 +17,7 @@ imprimir(0);
 Resposta:
 
 SOMA=13
-
+///////////////////////////////////////////////////////////////////////////////////
 
 2)
 
@@ -45,7 +45,7 @@ function fiboCalc(num) {
 
 fiboCalc(55)
 
-
+///////////////////////////////////////////////////////////////////////////////////
 
 3) Descubra a lógica e complete o próximo elemento:
 
@@ -58,6 +58,8 @@ d)4,16,36,64,256
 e)1,1,2,3,5,8,13
 f)2,10,12,16,17,18,19,200
 
+
+
 4)
 
 Resposta:
@@ -69,6 +71,9 @@ Deixaria o interruptor 3 ligado
 Iria para a sala caso ele estivesse aceso já sei que faz parte do interruptor 3,
 se estiver fria é o interruptor 1 se estiver apagada mais quente é o 2,
 verificando isso eu iria para próxima sala e faria a verificação novamente, seguindo os mesmos passos, a sala que sobraria dessa avaliação faria parte do interruptor que não foi identificado em ambas as salas
+
+///////////////////////////////////////////////////////////////////////////////////
+
 
 5) https://joaosilva25.github.io/Entrevista/
 
