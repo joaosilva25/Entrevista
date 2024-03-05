@@ -1,19 +1,4 @@
-1) Observe o trecho de código abaixo:
-
-int INDICE = 13, SOMA = 0, K = 0;
-
-enquanto K < INDICE faça
-
-{
-
-K = K + 1;
-
-SOMA = SOMA + K;
-
-}
-
-imprimir(SOMA);
-
+1)
 
 let Indice=13;
 let K=0;
@@ -28,6 +13,10 @@ function imprimir(SOMA) {
 
 
 imprimir(0);
+
+Resposta:
+
+SOMA=13
 
 
 2)
@@ -71,5 +60,29 @@ f)2,10,12,16,17,18,19,200
 
 4)
 
+Resposta:
+
+Deixaria o interruptor 1 desligado
+ligaria o interruptor 2 por algum tempo somente
+Deixaria o interruptor 3 ligado
+
+Iria para a sala caso ele estivesse aceso já sei que faz parte do interruptor 3,
+se estiver fria é o interruptor 1 se estiver apagada mais quente é o 2,
+verificando isso eu iria para próxima sala e faria a verificação novamente, seguindo os mesmos passos, a sala que sobraria dessa avaliação faria parte do interruptor que não foi identificado em ambas as salas
 
 5)
+
+function ReverseString(stringReverse) {
+    let stringArray=stringReverse.split('');
+    let reverseStringArray=[]
+
+    for(let i=0; i<stringArray.length;i++) {
+        reverseStringArray.unshift(stringArray[i])
+    }
+
+    let stringReversed=reverseStringArray.join('')
+
+    return stringReversed
+}
+
+ReverseString("João")
