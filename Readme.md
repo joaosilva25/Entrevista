@@ -51,7 +51,7 @@ fiboCalc(55)
 
 
 
-3) Descubra a lógica e complete o próximo elemento:
+3)
 
 Resposta:
 
